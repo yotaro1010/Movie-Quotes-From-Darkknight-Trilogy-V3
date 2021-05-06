@@ -65,6 +65,7 @@ class MovieSearchCell: UITableViewCell {
          super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
     
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         configureCellLayout()

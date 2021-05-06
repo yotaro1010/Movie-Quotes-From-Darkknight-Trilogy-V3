@@ -358,10 +358,9 @@
 			isa = PBXGroup;
 			children = (
 				0CB5EABC2644115E0067C95C /* Views */,
-				0C02030B26041E25001E77E6 /* MovieSearchVCs */,
-				0C0A05E126430A2A007A7592 /* SideMenuContollers */,
-				0CB5EAC62644123B0067C95C /* SideMenuVCs */,
 				0C0202DD26041E24001E77E6 /* SearchQuoteVCs */,
+				0C02030B26041E25001E77E6 /* MovieSearchVCs */,
+				0CB5EAC62644123B0067C95C /* SideMenuVCs */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -376,18 +375,6 @@
 				0C4D7AFC264299EB00F294F2 /* HomeImageView.swift */,
 			);
 			path = HomeVCs;
-			sourceTree = "<group>";
-		};
-		0C0A05E126430A2A007A7592 /* SideMenuContollers */ = {
-			isa = PBXGroup;
-			children = (
-				0C02031326041E25001E77E6 /* SideMenuController.swift */,
-				0C02031126041E25001E77E6 /* SideMenuCell.swift */,
-				0C02031226041E25001E77E6 /* SideMenuOption.swift */,
-				0C4D7B222642A70A00F294F2 /* SideMenuImageView.swift */,
-				0C4D7B272642A7AE00F294F2 /* SideMenuLabel.swift */,
-			);
-			path = SideMenuContollers;
 			sourceTree = "<group>";
 		};
 		0C0A05F72643229F007A7592 /* API */ = {
@@ -428,6 +415,11 @@
 		0CB5EAC62644123B0067C95C /* SideMenuVCs */ = {
 			isa = PBXGroup;
 			children = (
+				0C02031326041E25001E77E6 /* SideMenuController.swift */,
+				0C02031126041E25001E77E6 /* SideMenuCell.swift */,
+				0C02031226041E25001E77E6 /* SideMenuOption.swift */,
+				0C4D7B222642A70A00F294F2 /* SideMenuImageView.swift */,
+				0C4D7B272642A7AE00F294F2 /* SideMenuLabel.swift */,
 			);
 			path = SideMenuVCs;
 			sourceTree = "<group>";

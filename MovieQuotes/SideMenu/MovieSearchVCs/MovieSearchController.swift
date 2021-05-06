@@ -83,14 +83,23 @@ extension MovieSearchController: UISearchBarDelegate{
             return
         }
     
-        APIManeger.shared.searchMovie(pathType: .movie, query: text) { (result) in
-            self.listOfMovies = result.movies
+        APIManeger.shared.searchMovie(query: text, successHandler: {[weak self] (result) in
+            self?.listOfMovies = result.movies
             DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
-        } errorHandler: { (error) in
+                            self?.tableView.reloadData()
+                        }
+        }, errorHandler: {(error) in
             print(error)
-        }
+        })
+        
+//        APIManeger.shared.searchMovie(pathType: .movie, query: text) {[weak self] (result) in
+//            self?.listOfMovies = result.movies
+//            DispatchQueue.main.async {
+//                self?.tableView.reloadData()
+//            }
+//        } errorHandler: { (error) in
+//            print(error)
+//        }
     }
 }
 

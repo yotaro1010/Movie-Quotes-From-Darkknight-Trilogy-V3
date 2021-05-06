@@ -33,7 +33,9 @@ class PopUpCardViewController: UIViewController,AVAudioPlayerDelegate{
         cardView.addSubview(quoteImageView)
         cardView.addSubview(backButton)
         cardView.addSubview(button)
+        configureCard()
     }
+    
     
     @objc func dismissSelf(){
         dismiss(animated: true, completion: nil)
@@ -41,9 +43,7 @@ class PopUpCardViewController: UIViewController,AVAudioPlayerDelegate{
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
         configureLayout()
-        configureCard()
     }
     
     func configureCard(){
