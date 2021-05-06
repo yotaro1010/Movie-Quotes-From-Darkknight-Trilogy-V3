@@ -10,16 +10,17 @@ import XCTest
 
 class MovieQuotesTests: XCTestCase {
     
-    let networkManeger = NetworkManeger()
+    let apiManeger = APIManeger()
 
     func testSearchMovie(){
         
         let expectation = self.expectation(description: "Search for Batman Movies")
-        networkManeger.searchMovie(query:"batman", successHandler: {(result) in
+        apiManeger.searchMovie(pathType: .movie, query:"batman", successHandler: {(result) in
             XCTAssertNotNil(result)
         }, errorHandler: {(error) in
             XCTAssertNil(error)
         })
+        
         expectation.fulfill()
         self.waitForExpectations(timeout: 10.0, handler: nil)
     }

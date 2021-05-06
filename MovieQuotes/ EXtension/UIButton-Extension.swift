@@ -16,6 +16,7 @@ extension UIButton {
         self.titleLabel?.numberOfLines = 0
         self.titleLabel?.adjustsFontSizeToFitWidth = true
         self.sizeToFit()
+        self.titleLabel?.minimumScaleFactor = 10.0
         self.titleLabel?.textAlignment = .center
         self.backgroundColor = UIColor.black
         self.layer.cornerRadius = 20

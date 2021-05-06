@@ -17,5 +17,7 @@ target 'MovieQuotes' do
   end
 
 pod 'SideMenu'
+pod "Alamofire"
+pod 'Nuke' 
 
 end

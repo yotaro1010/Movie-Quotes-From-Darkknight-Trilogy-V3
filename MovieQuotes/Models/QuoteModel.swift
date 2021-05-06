@@ -54,7 +54,7 @@ Jim Gordon: I never said thank you.
             Quotes(quote: "\"Why so serious son\"", quoteMp3name: "joker7", character: "JOKER", imageName: "joker7"),
 
             Quotes(quote: """
-"Let me get this straight, you think that your client, one of the wealthiest and most powerful men in the world, is secretly a vigilante, who spends his nights beating criminals to a pulp with his bare hands, and your plan is to blackmail this person?.....Good luck."
+"Good luck."
 """, quoteMp3name: "fox2", character: "Lucius Fox", imageName: "fox2"),
             
             Quotes(quote: """
@@ -89,10 +89,10 @@ Jim Gordon: I never said thank you.
             
             Quotes(quote: """
 "The world is cruel. And the only morality in a cruel world is chance. Unbiased, unprejudiced, fair."
-""", quoteMp3name: "twoface", character: "TwoFace", imageName: "TwoFace"),
+""", quoteMp3name: "twoface", character: "TwoFace", imageName: "twoface"),
             
             Quotes(quote: """
-"He’s the hero Gotham deserves, but not the one it needs right now. So we’ll hunt him because he can take it. Because he’s not our hero. He’s a silent guardian, a watchful protector"... "a Dark Knight."
+"Because he’s not our hero. He’s a silent guardian, a watchful protector...A Dark Knight."
 """, quoteMp3name: "the_Dark_Knight", character: "A Dark Knight", imageName: "gordon2")
             ]
     }
@@ -152,7 +152,7 @@ Catwoman:  Where's the fun in that?
                     """, quoteMp3name: "catwoman1", character: "CatWoman", imageName: "catwoman_rises"),
                 
                 Quotes(quote: """
-"A hero can be anyone. Even a man doing something as simple and reassuring as putting a coat around a young boy's shoulders to let him know that the world hadn't ended."
+"Hero can be anyone."
 """, quoteMp3name: "hero can be anyone", character: "BATMAN", imageName: "batman5")
             ]
         }

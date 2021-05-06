@@ -1,0 +1,33 @@
+//
+//  SampleTableViewCell.swift
+//  DemoV13
+//
+//  Created by Yotaro Ito on 2021/03/14.
+//
+
+import UIKit
+
+class QuoteSearchCell: UITableViewCell {
+    
+static let identifier = "QuoteSearchCell"
+    
+    let label = Label(textColor: UIColor.white, font: UIFont.systemFont(ofSize: 20, weight: .regular), borderWidth: 0.0, borderColor: UIColor.clear.cgColor, cornerRadius: 0)
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        contentView.addSubview(label)
+    }
+    
+    func configure(with model: Quotes){
+        label.text = model.quote
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        label.frame = contentView.bounds
+    }
+}
