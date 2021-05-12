@@ -25,6 +25,7 @@ Here is short GIF preview which demonstrates design and features of the App.
 
 ## Library used in app
 SideMenu https://github.com/jonkykong/SideMenu
+
 Nuke https://github.com/kean/Nuke
 
 使用するとメモリリークが起きてしまうため、現在改善中(Alamofire https://github.com/Alamofire/Alamofire)
