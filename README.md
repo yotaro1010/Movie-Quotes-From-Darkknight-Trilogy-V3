@@ -4,6 +4,11 @@
 
 ## Overview
 
+Movie-Quotes-From-Darkknight-Trilogy-V2をリファクタリングしました。
+
+SideMenuの他に画像キャッシングの際にNukeというライブラリを使用しました。
+その他、細かく個別にディレクトリを作り、コードの可読性を高めました。
+
 映画ダークナイト三部作から印象的なセリフを聞くことができるアプリです。
 cellをタップすると、セリフごとのカードが表示され、playボタンを押すことでセリフを聞くことができます。
 またこの機能の他にアプリ内セリフ検索機能とTheMovieDataBaseAPIを用いた映画検索機能を搭載しています。
@@ -20,6 +25,9 @@ Here is short GIF preview which demonstrates design and features of the App.
 
 ## Library used in app
 SideMenu https://github.com/jonkykong/SideMenu
+Nuke https://github.com/kean/Nuke
+
+使用するとメモリリークが起きてしまうため、現在改善中(Alamofire https://github.com/Alamofire/Alamofire)
 
 
 ## Author
